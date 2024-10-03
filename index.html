@@ -13,6 +13,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>My weather application</title>
   </head>
+
   <body>
     <div class="weather-app">
       <header>
@@ -30,20 +31,25 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 id="current-city" class="current-city">Paris</h1>
+            <h1 id="current-city" class="current-city"></h1>
             <p class="current-details">
-              <span id="current-date"></span>,
-              <span id="current-description">moderate rain</span> <br />
-              Humidity: <span id="current-humidity">87%</span>, Wind:
-              <span id="current-wind">7.2km/h</span>
+              <span id="current-date"></span> <br />
+              <span id="current-description"></span>
+              <br />
+              Humidity:
+              <span id="current-humidity" class="humidity-value"></span>
+              <br />
+              Wind:
+              <span id="current-wind" class="wind-value">7.2 km/h</span>
             </p>
           </div>
           <div class="current-temperature">
-            <span id="current-icon">☀️</span
-            ><span id="current-temp" class="current-temperature-value">24</span
+            <span id="current-icon"></span
+            ><span id="current-temp" class="current-temperature-value"></span
             ><span class="current-temperature-unit">°C</span>
           </div>
         </div>
+        <div id="weather-forecast" class="weather-forecast-information"></div>
       </main>
       <footer>
         <p>
