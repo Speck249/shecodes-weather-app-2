@@ -5,13 +5,12 @@
 
 # SheCodes Plus
 
-SheCodes Foundation gives developers living in underrepresented countries full scholarship to access five SheCodes Workshops [Basics, Basics Add-On, Plus, Plus Add-On, AI Add-On] covering the fundamentals of HTML, CSS, JavaScript, JS Libraries, and AI Integrations. This project was developed as part of the SheCodes Plus module. It is a simple API weather app that displays daily and weekly weather forecasts of any city in the world.
+SheCodes Foundation gives developers from underrepresented countries full scholarship to access five SheCodes Workshops [Basics, Basics Add-On, Plus, Plus Add-On, AI Add-On] covering the fundamentals of HTML, CSS, JavaScript, JS Libraries, and AI Integrations. This project was developed as part of the SheCodes Plus module. It is a simple API weather app that displays daily and weekly weather forecasts of any city in the world.
 
 The project was built and hosted with:
 * HTML and CSS
 * JavaScript
 * Axios
-* Moment Js
 * SheCodes Weather API
 * CodeSandbox
 * Netlify
