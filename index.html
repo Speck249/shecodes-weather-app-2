@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,58 +11,57 @@
     />
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <title>My weather application</title>
+    <title>SheCodes Weather App</title>
   </head>
 
   <body>
     <div class="weather-app">
       <header>
+        <a href="/"><img src="./images/logo text.gif" width="720" height="300" class="logo-icon" /></a>
         <form id="search-form">
           <input
             type="search"
-            placeholder="Enter a city.."
-            required
-            class="search-input"
             id="search-input"
+            class="search-input"
+            placeholder="Enter a City.."
+            autofocus
+            required            
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
+
       <main>
-        <div class="current-weather">
-          <div>
+        <div class="weather-container">
+          <div class="current-weather">
             <h1 id="current-city" class="current-city"></h1>
-            <p class="current-details">
-              <span id="current-date"></span> <br />
-              <span id="current-description"></span>
-              <br />
-              Humidity:
-              <span id="current-humidity" class="humidity-value"></span>
-              <br />
-              Wind:
-              <span id="current-wind" class="wind-value">7.2 km/h</span>
-            </p>
+            <div class="current-details">
+              <p id="current-date"></p>
+              <p id="current-description"></p>
+              Humidity: <span id="current-humidity" class="humidity-value"></span> <br />
+              Wind: <span id="current-wind" class="wind-value"></span>
+            </div>
           </div>
+
           <div class="current-temperature">
-            <span id="current-icon"></span
-            ><span id="current-temp" class="current-temperature-value"></span
-            ><span class="current-temperature-unit">°C</span>
+            <span id="current-icon"></span>
+            <span id="current-temp" class="current-temperature-value"></span>
+            <span class="current-temperature-unit">°C</span>
           </div>
         </div>
+
         <div id="weather-forecast" class="weather-forecast-information"></div>
       </main>
-      <footer>
-        <p>
-          This project was coded by
-          <a href="#" target="_blank">Rediet Kifle</a> and is
-          <a href="https://github.com/Speck249/shecodes-weather-app-2" target="_blank">
-            open-sourced on GitHub</a
-          >
-          and
-          <a href="#" target="_blank">hosted on Netlify</a>
-        </p>
-      </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
-  <script src="src/index.js"></script>
+
+  <footer>
+    <p>
+      This project was coded by
+      <a href="#" target="_blank">Rediet Kifle</a> and is
+      <a href="https://github.com/Speck249/shecodes-weather-app-2" target="_blank">
+      open-sourced on GitHub</a>and hosted on<a href="#" target="_blank">Netlify</a>
+    </p>
+  </footer>
 </html>
