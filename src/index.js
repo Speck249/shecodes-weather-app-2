@@ -65,7 +65,7 @@ function fetchForecast(query) {
 function displayForecast(response) {
   let forecastData = "";
   response.data.daily.forEach((item, index) => {
-    if (index < 6) {
+    if (index < 7) {
       forecastData += `
         <div class="weather-forecast-data">
           <div class="weather-forecast-day">
@@ -125,4 +125,4 @@ function formatDateTime(date) {
 }
 
 // Initial fetch call
-fetchWeatherData("Paris");
+fetchWeatherData("Addis Ababa");
