@@ -1,16 +1,36 @@
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![SheCodes](./images/SheCodes%20Logo.png)
 
 # SheCodes Plus
 
-SheCodes Foundation gives developers from underrepresented countries full scholarship to access five SheCodes Workshops [Basics, Basics Add-On, Plus, Plus Add-On, AI Add-On] covering the fundamentals of HTML, CSS, JavaScript, JS Libraries, and AI Integrations. This project was developed as part of the SheCodes Plus module. It is a simple API weather app that displays daily and weekly weather forecasts of any city in the world.
+SheCodes Plus is part of the SheCodes Foundation package that gives access to multiple SheCodes workshops to developers from underrepresented countries.
 
-The project was built and hosted with:
-* HTML and CSS
-* JavaScript
-* Axios
-* SheCodes Weather API
-* CodeSandbox
-* Netlify
+## Description
+The SheCodes Weather App is a user-friendly web application that provides real-time weather information for any city, along with a detailed weekly forecast. Built using HTML, CSS, and JavaScript, this app leverages Axios to fetch data from the SheCodes Weather API, ensuring accurate and up-to-date weather information.
+
+### Features
+* **Current Weather Data**: Displays the current temperature, humidity, wind speed, and weather conditions for any specified city.
+* **Weekly Forecast**: Provides a detailed forecast for the upcoming week, including daily temperatures.
+* **Responsive Design**: Optimized for both desktop and mobile devices, ensuring a seamless user experience.
+* **Search Functionality**: Easily search for any city to retrieve its weather information.
+* **User-Friendly Interface**: Intuitive layout and design for easy navigation and accessibility.
+
+### Technologies Used
+* **Frontend**: HTML, CSS, JavaScript
+* **API Integration**: Axios for making HTTP requests to the SheCodes Weather API
+* **Data Handling**: JavaScript for processing and displaying weather data
+
+### Installation
+* To run the Weather App locally, clone the repository and open the index.html file in your browser:
+  <br /> → <em>git clone https://github.com/yourusername/weather-app.git</em>
+  <br /> → <em>cd weather-app</em>
+  <br /> → <em>open index.html</em>
+
+### Usage
+→ Enter the name of a city in the search bar.
+→ Click the "Search" button to retrieve the current weather and the weekly forecast.
+→ View the results displayed on the page.
+
+### Contributing
+* Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+Thanks for stopping by!
