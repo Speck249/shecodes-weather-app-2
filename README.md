@@ -1,4 +1,4 @@
-![SheCodes](./images/SheCodes%20Logo.png)
+![SheCodes](./images/shecodes-logo.png)
 
 # SheCodes Plus
 
