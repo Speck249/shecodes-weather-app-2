@@ -40,7 +40,7 @@ function updateTemperature(response) {
   currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
 
   let currentWindSpeed = document.querySelector("#current-wind");
-  currentWindSpeed.innerHTML = `${response.data.wind.speed} km/h`;
+  currentWindSpeed.innerHTML = `${response.data.wind.speed}`;
 
   let currentIcon = document.querySelector("#current-icon");
   currentIcon.innerHTML = `<img src="${response.data.condition.icon_url}" alt="${response.data.condition.icon}" class="current-temperature-icon" />`;
@@ -72,10 +72,10 @@ function displayForecast(response) {
             ${formatDay(item.time)}
           </div>
           <div class="wf-icon">
-            <img src="${item.condition.icon_url}" alt="${
+          <img src="${item.condition.icon_url}" alt="${
         item.condition.icon
       }" class="weather-forecast-icon" />
-          </div>
+         </div>
           <div class="weather-forecast-high-low">
             <span class="wf-high">${Math.round(
               item.temperature.maximum
@@ -126,3 +126,4 @@ function formatDateTime(date) {
 
 // Initial fetch call
 fetchWeatherData("Addis Ababa");
+ 
