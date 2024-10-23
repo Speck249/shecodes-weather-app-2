@@ -30,8 +30,6 @@ body {
 .weather-app {
   max-width: 750px;
   margin: 4rem auto;
-  outline: none;
-  border: none;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #0b0a0a61, #0b0a0a30), url(../images/background-image.jpg);
   background-position: center;
@@ -128,31 +126,35 @@ footer {
 }
 
 .current-temperature-value {
-  font-size: 85px;
+  font-size: clamp(85px, 1vw, 30px);
 }
 
 .current-temperature-unit {
-  font-size: 40px;
+  font-size: 45px;
   position: relative;
   top: -35px;
 }
 
 .weather-forecast-information {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   padding: 1rem 1.5rem;
   background-color: transparent;
   backdrop-filter: blur(15px);
 }
 
-.weather-forecast-information,
-footer {
-  text-align: center;
+.weather-forecast-data {
+  font-size: clamp(15px, 2vw, 13px);
 }
  
 .weather-forecast-icon {
   width: 40px;
   height: 40px;
+}
+
+.weather-forecast-information,
+footer {
+  text-align: center;
 }
 
 footer {
@@ -162,7 +164,7 @@ footer {
 
 .current-temperature-value,
 a, a:hover {
-  font-weight: 800;
+  font-weight: 400;
 }
 
 a {
