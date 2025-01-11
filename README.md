@@ -19,12 +19,6 @@ The SheCodes Weather App is a user-friendly web application that provides real-t
 * **API Integration**: Axios for making HTTP requests to the SheCodes Weather API
 * **Data Handling**: JavaScript for processing and displaying weather data
 
-### Installation
-* To run the Weather App locally, clone the repository and open the index.html file in your browser:
-  <br /> → <em>git clone https://github.com/yourusername/weather-app.git</em>
-  <br /> → <em>cd weather-app</em>
-  <br /> → <em>open index.html</em>
-
 ### Usage
 → Enter the name of a city in the search bar.
 → Click the "Search" button to retrieve the current weather and the weekly forecast.
